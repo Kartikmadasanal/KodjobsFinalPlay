@@ -4,13 +4,13 @@ import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import { AuthProvider } from "@/lib/auth";
-import Header from "@/components/layout/Header";
+import Header from "@/components/layout/header";
 import Home from "@/pages/Home";
 import Jobs from "@/pages/Jobs";
-import Login from "@/pages/Login";
-import SignUp from "@/pages/SignUp";
+import Login from "@/pages/login";
+import SignUp from "@/pages/signup";
 import NotFound from "@/pages/not-found";
-import About from "@/pages/About";
+import About from "@/pages/about";
 
 function Router() {
   return (
